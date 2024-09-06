@@ -55,9 +55,9 @@ if(userseq[idx]==gameseq[idx]){
 
 else{
     h2.innerHTML=`Game Over!  your score was <b>${level}</b> <br> Press any key to start`;
-    setTimeout(function (){
-        document.querySelector("body").style.backgroundColor="red";
-    },150);
+    // setTimeout(function (){
+    //     document.querySelector("body").style.backgroundColor="red";
+    // },150);
      reset();
 }
 
